@@ -43,7 +43,7 @@ export default () => {
             加群防失联
           </a>
           <span class="px-1"> · </span> */}
-          <a href="https://nav.chatxyz.online" target="_blank" rel="noreferrer" class="hv-foreground text-yellow-300">
+          <a href="https://nav.aichats.site" target="_blank" rel="noreferrer" class="hv-foreground text-yellow-300">
             地址发布页
           </a>
           <span class="px-1"> · </span>
