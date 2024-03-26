@@ -143,7 +143,7 @@ export default (props: Props) => {
   return (
     <div id="input_container" class="mt-2 max-w-[450px]">
       <div class="fi mt-12">
-        <span class="text-(2xl transparent) font-extrabold bg-(clip-text gradient-to-r) from-sky-400 to-emerald-600">AICHATS & GPT4.0</span>
+        <span class="text-(2xl transparent) font-extrabold bg-(clip-text gradient-to-r) from-sky-400 to-emerald-600">CHATXYZ & GPT4.0</span>
       </div>
       <p mt-1 op-60>
         Hi,{props.user().nickname} 剩余额度{props.user().word}字
