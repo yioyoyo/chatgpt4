@@ -154,6 +154,7 @@ export default (props: Props) => {
         <span onClick={() => { setShowCharge(true) }} class="border-1 px-2 py-1 ml-2 rounded-md transition-colors bg-slate/20 cursor-pointer hover:bg-slate/50">支付宝充值</span>
       </p>
       <Show when={showCharge()}>
+        <div  style="height:500px;overflow-y: auto;">
         <div class="mt-4">
           <Show when={!url()}>
             <a href="https://appfront0220.s3.ap-southeast-1.amazonaws.com/qmzc/2023-02-23/WechatIMG35.jpeg">如充值未到账或有使用问题,请点击联系客服</a><br />
@@ -233,6 +234,30 @@ export default (props: Props) => {
         <button onClick={close} class="w-1/3 h-12 mt-2 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 rounded-sm ml-2">
           关闭
         </button>
+
+
+        <div class="text-xs text-gray-600 space-y-2 mt-6">
+          <div class="font-bold text-gray-700 text-center">常见问题</div>
+          <div>
+            <div class="font-bold text-gray-700">1.这是真的GPT4吗</div>
+            <div>是的，默认使用最新的gpt-4-turbo(gpt-4-turbo-2024-04-09)模型，但你问它是GPT几的时候有可能它并不知道自己是GPT4，可以用一些经典逻辑题区分，如：爸爸妈妈结婚为什么没有邀请我？ 如果能回答到结婚时还没有出生就说明是GPT4</div>
+          </div>
+
+          <div>
+            <div class="font-bold text-gray-700">2.为什么字数一下子消耗完了</div>
+            <div>建议每个问题开新对话单独提问！连续对话时为了能理解上下文，每次提问都需要带上前面所有的内容，所以前面内容会重复计算字数; 另外,提问和回答都会计算字数</div>
+          </div>
+          <div>
+            <div class="font-bold text-gray-700">3.月卡计费次数是否会因连续对话累加</div>
+            <div>月卡计费次数不会因连续对话累加,无论是否连续对话,每个问题只扣除一次</div>
+          </div>
+          <div>
+            <div class="font-bold text-gray-700">4.为什么发送问题后无任何反应</div>
+            <div>如果是一直都无响应, 那可能是兼容性问题, 在太低版本的浏览器中可能无法使用, 电脑上请使用最新谷歌浏览器，手机上可使用夸克浏览器</div>
+          </div>
+          
+        </div>
+        </div>
       </Show>
     </div>
   )
