@@ -154,7 +154,7 @@ export default (props: Props) => {
         <span onClick={() => { setShowCharge(true) }} class="border-1 px-2 py-1 ml-2 rounded-md transition-colors bg-slate/20 cursor-pointer hover:bg-slate/50">支付宝充值</span>
       </p>
       <Show when={showCharge()}>
-        <div  style="height:500px;overflow-y: auto;">
+        <div  style="height:400px;overflow-y: auto;">
         <div class="mt-4">
           <Show when={!url()}>
             <a href="https://appfront0220.s3.ap-southeast-1.amazonaws.com/qmzc/2023-02-23/WechatIMG35.jpeg">如充值未到账或有使用问题,请点击联系客服</a><br />
