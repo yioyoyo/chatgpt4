@@ -34,7 +34,7 @@ export default ({ conversationId, messages, user, setUser }: Props) => {
         <a href="https://lg8h2izm09.feishu.cn/docx/FhbmdO3LaoSnadxWWy7cpALSnLe" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">如何区分GPT3.5和GPT4.0</a>
       </div>
       <div class="px-6 text-gray-500 text-xs mt-2">
-      当前为单次对话模式。注意:单次对话模式新问题将直接覆盖老问题;请使用chrome浏览器获得最佳体验效果1
+      当前为单次对话模式。注意:单次对话模式新问题将直接覆盖老问题;请使用chrome浏览器获得最佳体验效果
       </div>
       <div class="flex-[1] border-b border-base p-6 break-words overflow-y-scroll">
         <StreamableText
