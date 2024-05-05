@@ -55,7 +55,7 @@ export default (props: Props) => {
             <a href="https://lg8h2izm09.feishu.cn/docx/FhbmdO3LaoSnadxWWy7cpALSnLe" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">如何区分GPT3.5和GPT4.0</a>
           </div>
           <div class="px-6 text-red-500 text-xs my-2">
-            注意:连续对话消耗的字数会连续累加;不需要可选择单次对话(无法理解上下文)或每次新开一个对话;请使用chrome浏览器获得最佳体验效果,其他浏览器可能因不兼容而无法响应
+            当前为连续对话模式.注意:(连续对话消耗的字数会连续累加;不需要可选择单次对话(无法理解上下文)或每次新开一个对话;请使用chrome浏览器获得最佳体验效果,其他浏览器可能因不兼容而无法响应)
           </div>
           <For each={props.messages()}>
             {(message, index) => (
