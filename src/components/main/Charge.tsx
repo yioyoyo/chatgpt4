@@ -159,7 +159,7 @@ export default (props: Props) => {
           <Show when={!url()}>
             <a href="https://appfront0220.s3.ap-southeast-1.amazonaws.com/qmzc/2023-02-23/WechatIMG35.jpeg">如充值未到账或有使用问题,请点击联系客服</a><br />
             <span class="text-sm">
-            <span class="font-extrabold">超值月卡活动已下架</span>,请选择充值套餐,字数套餐按<span class="font-extrabold">字数计费(无时间限制,无购买限制)</span>
+            <span class="font-extrabold">超值月卡活动已结束</span>,请选择充值套餐,字数套餐按<span class="font-extrabold">字数计费(无时间限制,无购买限制)</span>
               ;月卡按<span class="font-extrabold">提问次数计费(30天有效期,每30天可购买一次月卡)</span>
             </span>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-1">
