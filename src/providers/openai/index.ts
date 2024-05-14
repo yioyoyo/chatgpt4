@@ -35,9 +35,9 @@ const providerOpenAI = () => {
         options: [
           { value: 'gpt-4-1106-preview', label: 'gpt-4-1106-preview' },
           { value: 'gpt-4-0125-preview', label: 'gpt-4-0125-preview' },
-          { value: 'gpt-4-turbo-2024-04-09', label: 'gpt-4-turbo-2024-04-09' },
+          { value: 'gpt-4o', label: 'gpt-4o' },
         ],
-        default: 'gpt-4-turbo-2024-04-09',
+        default: 'gpt-4o',
       },
       {
         key: 'maxTokens',
