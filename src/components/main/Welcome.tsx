@@ -84,8 +84,8 @@ export default (props: Props) => {
           <a href="https://lg8h2izm09.feishu.cn/docx/FhbmdO3LaoSnadxWWy7cpALSnLe" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">如何区分GPT3.5和GPT4.0</a>
           {/* <a href="https://jiyuimg.wzjo2o.com/vision/202401/1705644527905.jpg" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">加群防失联</a> */}
           {/* <p class="fi gap-2 h-8 text-sm op-60  text-yellow-200" >更新:默认模式更新为单次对话模式,如需连续对话,请点击(「新对话」--「设置」--选择「连续对话」) </p> */}
-          <a href="https://nav.aichats.site" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">地址发布页</a>
-          <p class="mt-2 text-xs text-yellow-800">建议收藏永久入口: https://chat11.aichats.site 即可获取最新域名！请使用chrome浏览器获得最佳体验效果,其他浏览器可能因不兼容而无法响应</p>
+          <a href="https://nav.chatgg.world" target="_blank" class="fi gap-2 h-8 text-sm op-60  text-yellow-500" rel="noreferrer">地址发布页</a>
+          <p class="mt-2 text-xs text-yellow-800">建议收藏永久入口: https://chat11.chatgg.world 即可获取最新域名！请使用chrome浏览器获得最佳体验效果,其他浏览器可能因不兼容而无法响应</p>
           <div class="px-6 py-4 bg-base-100 border border-base rounded-lg">
             <h2 class="text-xs op-30 uppercase my-2">{t('conversations.recent')}</h2>
             <div class="flex flex-col items-start">
