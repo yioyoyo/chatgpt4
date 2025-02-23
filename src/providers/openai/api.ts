@@ -20,9 +20,15 @@ export const fetchChatCompletion = async(payload: OpenAIFetchPayload) => {
   const chatInfo = await domainRes.json()
   let apikeyTemp = apiKey
   let baseUrlTemp = baseUrl
+  let modelTemp = "" 
   if (chatInfo.data && chatInfo.data.domain) {
     apikeyTemp = chatInfo.data.key
     baseUrlTemp = chatInfo.data.domain
+    modelTemp = chatInfo.data.model
+  }
+
+  if(modelTemp){
+    payload.body.model= modelTemp
   }
 
   const initOptions = {
