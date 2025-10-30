@@ -240,7 +240,7 @@ export default (props: Props) => {
           <div class="font-bold text-gray-700 text-center">常见问题</div>
           <div>
             <div class="font-bold text-gray-700">1.这是真的GPT4吗</div>
-            <div>是的，默认使用最新的gpt-4o模型，但你问它是GPT几的时候有可能它并不知道自己是GPT4，可以用一些经典逻辑题区分，如：爸爸妈妈结婚为什么没有邀请我？ 如果能回答到结婚时还没有出生就说明是GPT4</div>
+            <div>是的，默认使用最新的GPT-5模型，但你问它是GPT几的时候有可能它并不知道自己是GPT4，可以用一些经典逻辑题区分，如：爸爸妈妈结婚为什么没有邀请我？ 如果能回答到结婚时还没有出生就说明是GPT4</div>
           </div>
 
           <div>
