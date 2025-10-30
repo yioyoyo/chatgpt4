@@ -61,7 +61,7 @@ export default (props: Props) => {
       <div class="flex flex-col w-full max-w-md mx-8 sm:mx-18">
         <Show when={!props.isLogin()}>
           <div class="fi mt-12 ">
-            <span class="text-(2xl transparent) font-extrabold bg-(clip-text gradient-to-r) from-sky-400 to-emerald-600">GPT-4 & CHATXYZ</span>
+            <span class="text-(2xl transparent) font-extrabold bg-(clip-text gradient-to-r) from-sky-400 to-emerald-600">GPT-5 & CHATXYZ</span>
           </div>
           <div mt-1 op-60>欢迎来到CHATXYZ,稳定可靠的AI供应商</div>
           <div op-60>验证邮箱开始使用</div>

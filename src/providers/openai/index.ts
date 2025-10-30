@@ -33,8 +33,6 @@ const providerOpenAI = () => {
         description: 'ChatGPT版本',
         type: 'select',
         options: [
-          { value: 'gpt-4-1106-preview', label: 'gpt-4-1106-preview' },
-          { value: 'gpt-4-0125-preview', label: 'gpt-4-0125-preview' },
           { value: 'gpt-5', label: 'gpt-5' },
         ],
         default: 'gpt-5',

@@ -123,7 +123,7 @@ const handleChatCompletion = async(payload: HandlerPayload, signal?: AbortSignal
 
   payload.messages.unshift({
     role: 'system',
-    content: 'You are ChatGPT based on GPT-4',
+    content: 'You are ChatGPT based on GPT-5',
   })
 
   const response = await fetchChatCompletion({
